@@ -1,0 +1,27 @@
+Problem modeling
+- N queen board are modeled as an 𝑁 × 𝑁 matrix
+- Main thread creates 𝑁 threads or 𝑁/𝑥 (where 𝑥 is number of processors) that explore solution space for the 
+board.
+o Each thread will start given the position of the queen in the first row
+o For large 𝑁, a thread may handle to branches of the Graph the modeled the search space
+GUI:
+- Input
+o 𝑁 board dimension 
+- Output
+o Board(s) showing search space exploration for solution 
+- Note: GUI should be updated in real time.
+
+
+Problem modeling
+- N queen board are modeled as an 𝑁 × 𝑁 matrix
+- Main thread creates 𝑁 threads or 𝑁/𝑥 (where 𝑥 is number of processors) that explore solution space for the 
+board.
+o Each thread will start given the position of the queen in the first row
+o For large 𝑁, a thread may handle to branches of the Graph the modeled the search space
+GUI:
+- Input
+o 𝑁 board dimension 
+- Output
+o Board(s) showing search space exploration for solution 
+- Note: GUI should be updated in real time.
+
